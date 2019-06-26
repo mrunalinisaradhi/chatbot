@@ -6,7 +6,7 @@
       "settings": {
         "client": "mongo",
 		"host": "cms-dialogflow-shard-00-00-prh0x.mongodb.net:27017,cms-dialogflow-shard-00-01-prh0x.mongodb.net:27017,cms-dialogflow-shard-00-02-prh0x.mongodb.net:27017/test?ssl=true&replicaSet=cms-dialogflow-shard-0&authSource=admin&retryWrites=true&w=majority",
-        "port": process.env.PORT || '5050',
+        "port": 27017,
         "database": "Responses.CMS",
         "username": "test1",
         "password": "test"
