@@ -5,7 +5,7 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-		"host": "mongodb+srv://test1:<password>@cms-dialogflow-prh0x.mongodb.net/test?retryWrites=true&w=majority",
+		"host": "cms-dialogflow-prh0x.mongodb.net/test?retryWrites=true&w=majority",
         "port": 27017,
         "database": "Responses.CMS",
         "username": "test1",
